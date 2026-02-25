@@ -1,5 +1,5 @@
 // ===== DATA =====
-const WHATSAPP_NUMBER = '5500993775932';
+const WHATSAPP_NUMBER = '69981454883';
 const WHATSAPP_MESSAGE = 'Olá! Gostaria de fazer um pedido na Federal Burger! 🍔';
 
 function getWhatsappLink(item) {
@@ -259,3 +259,4 @@ function renderCart() {
 document.getElementById('cart-notes').addEventListener('input', function() {
   if (cart.length > 0) renderCart();
 });
+
